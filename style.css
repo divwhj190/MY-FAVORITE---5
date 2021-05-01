@@ -94,3 +94,6 @@ html{
 .abc:hover {
     color:red;
 }
+img:hover {
+    transform: scale(0.9);
+}

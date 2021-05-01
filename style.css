@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background: linear-gradient(#F06292 20%, #90CAF9 100%);
+}
+
+img {
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+h1 {
+    color:darkorchid;
+    font-family:'Squada One', cursive;
+    font-size:60px;
+}
+
+h2 {
+    color: red;
+    font-family:'Righteous', cursive;
+}  
+
+#heading {
+    color: #fccc3d;
+    font-size:30px;
+}
+
+.line {
+    height: 6px;
+    background-color: green;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right:400px;
+    z-index: 10;
+    cursor: pointer;
+    text-align:center;
+    background-color: darkblue;
+}
+
+#welcome {
+    z-index: 9;
+    text-align: center;
+}
+
+.list {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.list:hover {
+    background-color: red;
+}
+h3{
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    color:chartreuse;
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+    color:yellow;
+}
+.img {
+     height: 500px;
+    border-radius: 300px;
+    padding: 0px;
+    border:10px solid #AAAAAA;
+}
+#img1 {
+    margin-right: 180px;
+}
+.contact1 h3 {
+    display: inline;
+}
+.contact1{
+    background:#eb96cc;
+    width:300px;
+}
+.abc:hover {
+    color:red;
+}
